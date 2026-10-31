@@ -1,1 +1,242 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZYROX SMP Store</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #080d0a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 22px;
+  background: #101b13;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #35e879;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+.hero {
+  text-align: center;
+  padding: 75px 15px;
+  background: radial-gradient(#18532d, #080d0a 75%);
+}
+
+.hero h1 {
+  font-size: 45px;
+}
+
+.hero span {
+  color: #35e879;
+}
+
+.hero p {
+  color: #ccc;
+  margin: 18px;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 22px;
+  background: #35e879;
+  color: #061009;
+  text-decoration: none;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+section {
+  padding: 55px 18px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.ranks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 18px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.card {
+  background: #111c14;
+  border: 1px solid #285438;
+  border-radius: 12px;
+  padding: 25px 15px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  border-color: #35e879;
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: #35e879;
+  font-size: 24px;
+}
+
+.price {
+  font-size: 27px;
+  font-weight: bold;
+  margin: 17px;
+}
+
+.card p {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.card .btn {
+  width: 100%;
+}
+
+.discord {
+  background: #101b13;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+  color: #999;
+}
+
+@media(max-width: 500px) {
+  .hero h1 {
+    font-size: 35px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">ZYROX SMP</div>
+  <nav>
+    <a href="#ranks">Ranks</a>
+    <a href="#discord">Discord</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>WELCOME TO <span>ZYROX</span></h1>
+  <p>
+    Enter the world of ZYROX SMP.<br>
+    Choose your rank and become legendary.
+  </p>
+  <a class="btn" href="#ranks">EXPLORE STORE</a>
+</div>
+
+<section>
+  <h2>SERVER INFORMATION</h2>
+  <p class="subtitle">Your next Minecraft adventure starts here.</p>
+  <div class="card">
+    <h3>SERVER IP</h3>
+    <p>Coming Soon</p>
+  </div>
+</section>
+
+<section id="ranks">
+  <h2>OUR RANKS</h2>
+  <p class="subtitle">Choose your favourite rank.</p>
+
+  <div class="ranks">
+
+    <div class="card">
+      <div class="icon">⚔️</div>
+      <h3>LORD</h3>
+      <div class="price">Rs. 49</div>
+      <p>Start your journey.</p>
+      <a class="btn" href="https://discord.gg/eGvU225zh">BUY NOW</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🛡️</div>
+      <h3>ELITE</h3>
+      <div class="price">Rs. 99</div>
+      <p>Become an Elite.</p>
+      <a class="btn" href="https://discord.gg/eGvU225zh">BUY NOW</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">💎</div>
+      <h3>TITAN</h3>
+      <div class="price">Rs. 199</div>
+      <p>Unlock Titan status.</p>
+      <a class="btn" href="https://discord.gg/eGvU225zh">BUY NOW</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">👑</div>
+      <h3>GOD</h3>
+      <div class="price">Rs. 299</div>
+      <p>Rule the server.</p>
+      <a class="btn" href="https://discord.gg/eGvU225zh">BUY NOW</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔥</div>
+      <h3>ZYROX</h3>
+      <div class="price">Rs. 399</div>
+      <p>The ultimate rank.</p>
+      <a class="btn" href="https://discord.gg/eGvU225zh">BUY NOW</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="discord" id="discord">
+  <h2>JOIN OUR DISCORD</h2>
+  <p class="subtitle">Join our community today!</p>
+  <a class="btn" href="https://discord.gg/eGvU225zh">
+    JOIN DISCORD
+  </a>
+</section>
+
+<footer>
+  © 2026 ZYROX SMP. All rights reserved.
+</footer>
+
+</body>
+  </html>
+
